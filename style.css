@@ -14,9 +14,12 @@
   background-color: rgb(232, 231, 231);
 }
 
+.bakgrundsfarg-footer {
+  background-color: #b9824b;
+}
+
 .nav-link:hover {
   background-color: #b9824b;
-  color: white;
 }
 
 .knapp-farg {
@@ -31,4 +34,15 @@
   background-image: url(Bilder/Tea_Hero.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.fakta-bakgrundsbild {
+  background-image: url(Bilder/Aside_bild.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.frosted-glass {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
 }
