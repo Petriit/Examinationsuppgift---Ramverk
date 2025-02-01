@@ -9,3 +9,26 @@
 .bakgrundsfarg-standard {
   background-color: white;
 }
+
+.bakgrundsfarg-card {
+  background-color: rgb(232, 231, 231);
+}
+
+.nav-link:hover {
+  background-color: #b9824b;
+  color: white;
+}
+
+.knapp-farg {
+  background-color: #a6b37d;
+}
+
+.knapp-farg:hover {
+  background-color: #9baf59;
+}
+
+.hero-bakgrundsbild {
+  background-image: url(Bilder/Tea_Hero.jpg);
+  background-size: cover;
+  background-position: center;
+}
