@@ -18,31 +18,25 @@
   background-color: #b9824b;
 }
 
-.nav-link:hover {
-  background-color: #b9824b;
-}
-
 .knapp-farg {
-  background-color: #a6b37d;
+  background-color: #49b64b;
 }
 
 .knapp-farg:hover {
-  background-color: #9baf59;
+  background-color: #49b64ba7;
 }
 
-.hero-bakgrundsbild {
-  background-image: url(Bilder/Tea_Hero.jpg);
-  background-size: cover;
-  background-position: center;
+.text-farg-gron {
+  color: #49b64b;
 }
 
-.fakta-bakgrundsbild {
+.bakgrundsbild-ett {
   background-image: url(Bilder/Aside_bild.jpg);
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 
-.frosted-glass {
+.bakgrund-frost {
   background-color: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
 }

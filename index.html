@@ -17,353 +17,403 @@
     <title>Startsida</title>
   </head>
   <body>
-    <div class="container-fluid bakgrundsfarg">
-      <div class="container-fluid bakgrundsfarg-top">
-        <p class="p-2 text-center fw-bold text-light">
-          Fri frakt över 500:-* Snabba leveranser!
-        </p>
-      </div>
-      <div class="container bakgrundsfarg-standard">
-        <header>
-          <a href="/" class="p-2">
-            <img
-              src="Bilder/Raise_80px.png"
-              class="img-fluid mx-auto d-block"
-              alt="Raise logo"
-            />
-          </a>
-          <nav class="navbar navbar-expand-lg border-top border-bottom">
-            <div class="container-fluid">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
+    <div class="container-fluid">
+      <header>
+        <!-- Navigation och länkar till de olika sidorna. -->
+        <div class="container-fluid pt-3">
+          <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
+          >
+            <div class="col-md-3 mb-2 mb-md-0">
+              <a
+                href="/"
+                class="d-inline-flex link-body-emphasis text-decoration-none"
               >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div
-                class="collapse navbar-collapse justify-content-center"
-                id="navbarNavDropdown"
-              >
-                <ul class="navbar-nav">
-                  <li class="nav-item m-3">
-                    <a
-                      class="nav-link active"
-                      aria-current="page"
-                      href="index.html"
-                      >STARTSIDA</a
+                <img
+                  src="Bilder/Raise_80px.png"
+                  class="img-fluid mx-auto d-block w-75"
+                  alt="Raise logo"
+                />
+              </a>
+            </div>
+            <ul
+              class="nav nav-pills col-12 col-md-auto mb-2 justify-content-center mb-md-0"
+            >
+              <li class="nav-item m-2">
+                <a
+                  href="#"
+                  class="nav-link knapp-farg text-light"
+                  aria-current="page"
+                  >Startsida</a
+                >
+              </li>
+              <li class="nav-item m-2">
+                <a href="fakta.html" class="nav-link text-dark">Fakta</a>
+              </li>
+              <li class="nav-item m-2 dropdown">
+                <a
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  class="nav-link dropdown-toggle text-dark"
+                  >Tesorter</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item text-dark" href="svart-te.html"
+                      >Svart Te</a
                     >
                   </li>
-                  <li class="nav-item m-3">
-                    <a class="nav-link" href="fakta.html">FAKTA</a>
-                  </li>
-                  <li class="nav-item dropdown m-3">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
+                  <li>
+                    <a class="dropdown-item text-dark" href="grön-te.html"
+                      >Grön Te</a
                     >
-                      TESORTER
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a class="dropdown-item" href="svart-te.html"
-                          >Svart Te</a
-                        >
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="grön-te.html">Grön Te</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item m-3">
-                    <a class="nav-link" href="kontakt.html">KONTAKT</a>
                   </li>
                 </ul>
+              </li>
+              <li class="nav-item m-2">
+                <a href="kontakt.html" class="nav-link text-dark">Kontakt</a>
+              </li>
+            </ul>
+
+            <div class="col-md-3 text-end">
+              <form
+                class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3"
+                role="search"
+              >
+                <input
+                  type="search"
+                  class="form-control"
+                  placeholder="Search..."
+                  aria-label="Search"
+                />
+              </form>
+            </div>
+          </header>
+        </div>
+        <!--  Hero bild med två knappar och text -->
+        <div class="container-fluid mb-4">
+          <div
+            class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+          >
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+              <h1 class="display-4 fw-bold lh-1 text-body-emphasis">
+                <span class="text-farg-gron">Raise</span> – ekologiskt te av
+                högsta kvalitet för teälskare
+              </h1>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                dignissimos laborum voluptates est, sequi rem dolores nobis
+                unde, sit eius illo. Veniam deleniti repellat dicta dignissimos
+                earum provident vitae inventore doloribus officia, quod dolorum
+                architecto enim, aspernatur facere. Aperiam magni a tempore
+                provident! Fuga eligendi officiis, laboriosam dolorem magni
+                saepe!
+              </p>
+              <div
+                class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+              >
+                <button
+                  type="button"
+                  class="btn bg-dark text-light btn-lg px-4 me-md-2"
+                >
+                  <!-- Knapp med länk till "Svart Te" sidan. -->
+                  <a
+                    href="svart-te.html"
+                    class="text-light text-decoration-none"
+                    >Svart Te</a
+                  >
+                </button>
+                <button
+                  type="button"
+                  class="btn knapp-farg text-light btn-lg px-4"
+                >
+                  <!-- Knapp med länk till "Grön Te" sidan. -->
+                  <a href="grön-te.html" class="text-light text-decoration-none"
+                    >Grön Te</a
+                  >
+                </button>
               </div>
             </div>
-          </nav>
-          <div class="container-fluid hero-bakgrundsbild my-5">
-            <h1 class="text-center display-1 fw-bold text-light pt-4">
-              Raise Tea
-            </h1>
-            <div class="input-group mb-3 pb-5">
-              <span class="input-group-text" id="inputGroup-sizing-default"
-                >Sök</span
-              >
-              <input
-                type="text"
-                class="form-control"
-                aria-label="Sizing example input"
-                aria-describedby="inputGroup-sizing-default"
-                placeholder="sök.."
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+              <img
+                class="rounded-lg-3 rounded"
+                src="Bilder/Tea_Hero.jpg"
+                alt=""
+                width="720"
               />
             </div>
           </div>
-        </header>
-        <main>
-          <!-- Alla cards i main sektionen -->
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div class="card mb-4">
-                  <img
-                    src="Bilder/Svart_Te.jpg"
-                    class="card-img-top"
-                    alt="Svart te"
-                  />
-                  <div class="card-body bakgrundsfarg-card">
-                    <h5 class="card-title text-center">Grön Te - Lösvikt</h5>
-                    <p class="card-text text-center p-2">109 SEK/HG</p>
-                    <a href="#" class="btn knapp-farg w-100 text-light"
-                      >Lägg till</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card mb-4">
-                  <img
-                    src="Bilder/Bi_Luo_Chun.jpg"
-                    class="card-img-top"
-                    alt="Bi Luo Chun Te"
-                  />
-                  <div class="card-body bakgrundsfarg-card">
-                    <h5 class="card-title text-center">
-                      Bi Luo Chun Te - Lösvikt
-                    </h5>
-                    <p class="card-text text-center p-2">149 SEK/HG</p>
-                    <a href="#" class="btn knapp-farg w-100 text-light"
-                      >Lägg till</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card mb-4">
-                  <img
-                    src="Bilder/Jasmin_dragon.jpg"
-                    class="card-img-top"
-                    alt="Jasmin Dragon Te"
-                  />
-                  <div class="card-body bakgrundsfarg-card">
-                    <h5 class="card-title text-center">Jasmin Te - Lösvikt</h5>
-                    <p class="card-text text-center p-2">139 SEK/HG</p>
-                    <a href="#" class="btn knapp-farg w-100 text-light"
-                      >Lägg till</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card mb-4">
-                  <img
-                    src="Bilder/Melonfrön_Grönte.jpg"
-                    class="card-img-top"
-                    alt="Melonfrön Grönte"
-                  />
-                  <div class="card-body bakgrundsfarg-card">
-                    <h5 class="card-title text-center">
-                      Melonfrön Te - Lösvikt
-                    </h5>
-                    <p class="card-text text-center p-2">100 SEK/HG</p>
-                    <a href="#" class="btn knapp-farg w-100 text-light"
-                      >Lägg till</a
-                    >
-                  </div>
+        </div>
+      </header>
+      <main>
+        <!-- Alla produkter i form av cards i main sektionen -->
+        <div class="container">
+          <!-- Första raden med produkter -->
+          <div class="row">
+            <!-- Första produkten -->
+            <div class="col">
+              <div class="card mb-4">
+                <img
+                  src="Bilder/Svart_Te.jpg"
+                  class="card-img-top"
+                  alt="Svart te"
+                />
+                <div class="card-body bakgrundsfarg-card">
+                  <h5 class="card-title text-center">Grön Te - Lösvikt</h5>
+                  <p class="card-text text-center p-2">109 SEK/HG</p>
+                  <a href="#" class="btn knapp-farg w-100 text-light"
+                    >Lägg till</a
+                  >
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col">
-                <div class="card mb-4">
-                  <img
-                    src="Bilder/Ming_Qian.jpg"
-                    class="card-img-top"
-                    alt="Ming Qian Te"
-                  />
-                  <div class="card-body bakgrundsfarg-card">
-                    <h5 class="card-title text-center">
-                      Ming Qian TE - Lösvikt
-                    </h5>
-                    <p class="card-text text-center p-2">169 SEK/HG</p>
-                    <a href="#" class="btn knapp-farg w-100 text-light"
-                      >Lägg till</a
-                    >
-                  </div>
+            <!-- Andra produkten -->
+            <div class="col">
+              <div class="card mb-4">
+                <img
+                  src="Bilder/Bi_Luo_Chun.jpg"
+                  class="card-img-top"
+                  alt="Bi Luo Chun Te"
+                />
+                <div class="card-body bakgrundsfarg-card">
+                  <h5 class="card-title text-center">
+                    Bi Luo Chun Te - Lösvikt
+                  </h5>
+                  <p class="card-text text-center p-2">149 SEK/HG</p>
+                  <a href="#" class="btn knapp-farg w-100 text-light"
+                    >Lägg till</a
+                  >
                 </div>
               </div>
-              <div class="col">
-                <div class="card mb-4">
-                  <img
-                    src="Bilder/Svart_Te.jpg"
-                    class="card-img-top"
-                    alt="Svart te"
-                  />
-                  <div class="card-body bakgrundsfarg-card">
-                    <h5 class="card-title text-center">Svart Te - Lösvikt</h5>
-                    <p class="card-text text-center p-2">119 SEK/HG</p>
-                    <a href="#" class="btn knapp-farg w-100 text-light"
-                      >Lägg till</a
-                    >
-                  </div>
+            </div>
+            <!-- Tredje produkten -->
+            <div class="col">
+              <div class="card mb-4">
+                <img
+                  src="Bilder/Jasmin_dragon.jpg"
+                  class="card-img-top"
+                  alt="Jasmin Dragon Te"
+                />
+                <div class="card-body bakgrundsfarg-card">
+                  <h5 class="card-title text-center">Jasmin Te - Lösvikt</h5>
+                  <p class="card-text text-center p-2">139 SEK/HG</p>
+                  <a href="#" class="btn knapp-farg w-100 text-light"
+                    >Lägg till</a
+                  >
                 </div>
               </div>
-              <div class="col">
-                <div class="card mb-4">
-                  <img
-                    src="Bilder/Yunnan_Gold.jpg"
-                    class="card-img-top"
-                    alt="Yunnan Gold Te"
-                  />
-                  <div class="card-body bakgrundsfarg-card">
-                    <h5 class="card-title text-center">Yunnan Te- Lösvikt</h5>
-                    <p class="card-text text-center p-2">139 SEK/HG</p>
-                    <a href="#" class="btn knapp-farg w-100 text-light"
-                      >Lägg till</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card mb-4">
-                  <img
-                    src="Bilder/Svart_Te.jpg"
-                    class="card-img-top"
-                    alt="Svart te"
-                  />
-                  <div class="card-body bakgrundsfarg-card">
-                    <h5 class="card-title text-center">Svart Te - Lösvikt</h5>
-                    <p class="card-text text-center p-2">119 SEK/HG</p>
-                    <a href="#" class="btn knapp-farg w-100 text-light"
-                      >Lägg till</a
-                    >
-                  </div>
+            </div>
+            <!--  Fjärde produkten -->
+            <div class="col">
+              <div class="card mb-4">
+                <img
+                  src="Bilder/Melonfrön_Grönte.jpg"
+                  class="card-img-top"
+                  alt="Melonfrön Grönte"
+                />
+                <div class="card-body bakgrundsfarg-card">
+                  <h5 class="card-title text-center">Melonfrön Te - Lösvikt</h5>
+                  <p class="card-text text-center p-2">100 SEK/HG</p>
+                  <a href="#" class="btn knapp-farg w-100 text-light"
+                    >Lägg till</a
+                  >
                 </div>
               </div>
             </div>
           </div>
-          <aside>
-            <div class="container fakta-bakgrundsbild py-5 my-4">
-              <div
-                class="container py-4 frosted-glass border border-white rounded"
-              >
-                <p class="text-light">
-                  Det som karaktäriserar svart te är att man vid tillverkningen
-                  låter bladen oxidera fullt ut vilket ger teet sin speciella
-                  färg. Trots att det här i Sverige kallas för svart te så har
-                  teet egentligen en mer kopparröd färg och i Kina kallar man
-                  det passande nog för ”hong cha” som betyder rött te.
-                </p>
-                <p class="text-light">
-                  Eftersom att teet har oxiderats fullt ut vid framställningen
-                  så är det generellt starkare och fylligare i smaken jämfört
-                  med andra tesorter som inte har oxiderats lika länge. Man får
-                  med andra ord en kraftigare smakupplevelse av svart te som
-                  inte går att finna hos andra tesorter. En annan positiv sak
-                  med att låta tebladen oxideras fullt ut är att smaken behålls
-                  mycket längre än ett grönt te till exempel. Ett grönt te kan
-                  tappa sin smak efter ett år, medan ett svart te kan behålla
-                  sin fylliga smak i flera år.
-                </p>
+          <!-- Andra raden med produkter -->
+          <div class="row">
+            <!-- Femte produkten -->
+            <div class="col">
+              <div class="card mb-4">
+                <img
+                  src="Bilder/Ming_Qian.jpg"
+                  class="card-img-top"
+                  alt="Ming Qian Te"
+                />
+                <div class="card-body bakgrundsfarg-card">
+                  <h5 class="card-title text-center">Ming Qian TE - Lösvikt</h5>
+                  <p class="card-text text-center p-2">169 SEK/HG</p>
+                  <a href="#" class="btn knapp-farg w-100 text-light"
+                    >Lägg till</a
+                  >
+                </div>
               </div>
             </div>
-          </aside>
-        </main>
-        <footer>
-          <div class="container-fluid bakgrundsfarg-footer">
-            <div class="row p-4">
-              <div class="col">
-                <h2>Om oss</h2>
-                <p class="text-light">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Minus nulla corrupti ab inventore repudiandae suscipit
-                  deserunt non quod minima eum et doloremque aspernatur fugiat,
-                  dolorem rem dignissimos qui temporibus illum.
-                </p>
-                <p class="text-light">
-                  Commodi cupiditate quisquam asperiores? Assumenda officia ipsa
-                  tempore, eius dicta illum fugiat eveniet reiciendis et. Et
-                  illum eos consectetur dolorum vel? Doloribus ducimus hic alias
-                  rem repellat aperiam dolor dolore.
-                </p>
-              </div>
-              <div class="col">
-                <h2>Navigation</h2>
-                <nav class="nav flex-column">
-                  <a
-                    class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover py-1"
-                    aria-current="page"
-                    href="index.html"
-                    >START</a
+            <!--   Sjätte produkten -->
+            <div class="col">
+              <div class="card mb-4">
+                <img
+                  src="Bilder/Svart_Te.jpg"
+                  class="card-img-top"
+                  alt="Svart te"
+                />
+                <div class="card-body bakgrundsfarg-card">
+                  <h5 class="card-title text-center">Svart Te - Lösvikt</h5>
+                  <p class="card-text text-center p-2">119 SEK/HG</p>
+                  <a href="#" class="btn knapp-farg w-100 text-light"
+                    >Lägg till</a
                   >
-                  <a
-                    class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover py-1"
-                    href="fakta.html"
-                    >FAKTA</a
-                  >
-                  <a
-                    class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover py-1"
-                    href="svart-te.html"
-                    >SVART TE</a
-                  >
-                  <a
-                    class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover py-1"
-                    href="grön-te.html"
-                    >GRÖN TE</a
-                  >
-                  <a
-                    class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover py-1"
-                    href="kontakt.html"
-                    >KONAKT</a
-                  >
-                </nav>
-              </div>
-              <div class="col">
-                <div class="row">
-                  <div class="col">
-                    <h2>Allmän info</h2>
-                    <p class="text-light">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Quam eos magnam quisquam sint possimus deleniti excepturi
-                      modi necessitatibus fuga debitis, consequatur perferendis
-                      impedit, eveniet saepe? Enim consequuntur ut esse eaque.
-                    </p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <h2>Sociala Nätvärk</h2>
-                    <a href="https://facebook.com"
-                      ><img src="Bilder/faceook.png" alt="facebook logga"
-                    /></a>
-                    <a href="https://instagram.com"
-                      ><img src="Bilder/instagram.png" alt="instagram logga"
-                    /></a>
-                    <a href="https://x.com"
-                      ><img src="Bilder/X.png" alt="X logga"
-                    /></a>
-                  </div>
                 </div>
               </div>
-              <div class="col">
-                <h2>Kontakt</h2>
-                <address class="text-light">
-                  Petrit Zenulla <br />
-                  Östra vägen 35 <br />
-                  41526 Göteborg
-                </address>
+            </div>
+            <!--Sjunde produkten -->
+            <div class="col">
+              <div class="card mb-4">
+                <img
+                  src="Bilder/Yunnan_Gold.jpg"
+                  class="card-img-top"
+                  alt="Yunnan Gold Te"
+                />
+                <div class="card-body bakgrundsfarg-card">
+                  <h5 class="card-title text-center">Yunnan Te- Lösvikt</h5>
+                  <p class="card-text text-center p-2">139 SEK/HG</p>
+                  <a href="#" class="btn knapp-farg w-100 text-light"
+                    >Lägg till</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!--  Åttonde produkten -->
+            <div class="col">
+              <div class="card mb-4">
+                <img
+                  src="Bilder/Svart_Te.jpg"
+                  class="card-img-top"
+                  alt="Svart te"
+                />
+                <div class="card-body bakgrundsfarg-card">
+                  <h5 class="card-title text-center">Svart Te - Lösvikt</h5>
+                  <p class="card-text text-center p-2">119 SEK/HG</p>
+                  <a href="#" class="btn knapp-farg w-100 text-light"
+                    >Lägg till</a
+                  >
+                </div>
               </div>
             </div>
           </div>
-        </footer>
-      </div>
+        </div>
+        <!-- En aside med informations text -->
+        <aside>
+          <div
+            class="container-fluid bg-dark p-5 my-4 rounded-3 bakgrundsbild-ett"
+          >
+            <div class="container-fluid py-5 bakgrund-frost rounded-3 border">
+              <h1 class="display-5 fw-bold text-light">
+                Svarta teets rika smak
+              </h1>
+              <p class="text-light">
+                Det som karaktäriserar svart te är att man vid tillverkningen
+                låter bladen oxidera fullt ut vilket ger teet sin speciella
+                färg. Trots att det här i Sverige kallas för svart te så har
+                teet egentligen en mer kopparröd färg och i Kina kallar man det
+                passande nog för ”hong cha” som betyder rött te.
+              </p>
+              <p class="text-light">
+                Eftersom att teet har oxiderats fullt ut vid framställningen så
+                är det generellt starkare och fylligare i smaken jämfört med
+                andra tesorter som inte har oxiderats lika länge. Man får med
+                andra ord en kraftigare smakupplevelse av svart te som inte går
+                att finna hos andra tesorter. En annan positiv sak med att låta
+                tebladen oxideras fullt ut är att smaken behålls mycket längre
+                än ett grönt te till exempel. Ett grönt te kan tappa sin smak
+                efter ett år, medan ett svart te kan behålla sin fylliga smak i
+                flera år.
+              </p>
+            </div>
+          </div>
+        </aside>
+      </main>
+      <!-- Footer med paragrafer, länkar samt sociala medier ikoner. -->
+      <footer>
+        <div class="container-fluid bg-dark">
+          <div class="row p-4">
+            <div class="col">
+              <h4 class="text-farg-gron">Om oss</h4>
+              <p class="text-light">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+                nulla corrupti ab inventore repudiandae suscipit deserunt non
+                quod minima eum et doloremque aspernatur fugiat, dolorem rem
+                dignissimos qui temporibus illum.
+              </p>
+              <p class="text-light">
+                Commodi cupiditate quisquam asperiores? Assumenda officia ipsa
+                tempore, eius dicta illum fugiat eveniet reiciendis et. Et illum
+                eos consectetur dolorum vel? Doloribus ducimus hic alias rem
+                repellat aperiam dolor dolore.
+              </p>
+            </div>
+            <div class="col">
+              <h4 class="text-farg-gron">Navigation</h4>
+              <nav class="nav flex-column">
+                <a
+                  class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover py-1"
+                  aria-current="page"
+                  href="index.html"
+                  >START</a
+                >
+                <a
+                  class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover py-1"
+                  href="fakta.html"
+                  >FAKTA</a
+                >
+                <a
+                  class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover py-1"
+                  href="svart-te.html"
+                  >SVART TE</a
+                >
+                <a
+                  class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover py-1"
+                  href="grön-te.html"
+                  >GRÖN TE</a
+                >
+                <a
+                  class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover py-1"
+                  href="kontakt.html"
+                  >KONAKT</a
+                >
+              </nav>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col">
+                  <h4 class="text-farg-gron">Allmän info</h4>
+                  <p class="text-light">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quam eos magnam quisquam sint possimus deleniti excepturi
+                    modi necessitatibus fuga debitis, consequatur perferendis
+                    impedit, eveniet saepe? Enim consequuntur ut esse eaque.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <h4 class="text-light">Sociala Nätvärk</h4>
+                  <a href="https://facebook.com"
+                    ><img src="Bilder/faceook.png" alt="facebook logga"
+                  /></a>
+                  <a href="https://instagram.com"
+                    ><img src="Bilder/instagram.png" alt="instagram logga"
+                  /></a>
+                  <a href="https://x.com"
+                    ><img src="Bilder/X.png" alt="X logga"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <h4 class="text-farg-gron">Kontakt</h4>
+              <address class="text-light">
+                Petrit Zenulla <br />
+                Östra vägen 35 <br />
+                41526 Göteborg
+              </address>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
